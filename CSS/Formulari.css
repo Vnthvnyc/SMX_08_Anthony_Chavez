@@ -1,0 +1,45 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+.informacio {
+  background-color: #f1a283; 
+}
+
+
+fieldset:nth-of-type(2) {
+  background-color: #00FF00; 
+}
+
+
+fieldset:nth-of-type(3) {
+  background-color: #FFC0CB; 
+}
+
+
+fieldset:nth-of-type(4) {
+  background-color: #ADD8E6; 
+}
+
+
+fieldset:nth-of-type(5) {
+  background-color: #808080; 
+}
+
+p {
+  text-align: center;
+}

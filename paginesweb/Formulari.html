@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Formulari</title>
+    <link rel="stylesheet" type="text/css" href="../css/formulari.css">
+</head>
+
+<body>
+    <h1>Curriculum</h1>
+
+    <form action="../php/form.php">
+        <fieldset class="informacio">
+            <legend><h2><u>Informació Bàsica</u></h2></legend>
+            <label for="Nom">Nom</label><br>
+            <input type="text" id="Nom"  placeholder="Escriu el teu nom" size="100"><br>
+            <label for="Alçada">Alçada</label><br>
+            <input type="number" id="Alçada"  placeholder="Alçada" min="0" max="300" value="160"><br>
+            <label for="Correu" >Correu</label><br>
+            <input type="text"  id="Correu" placeholder="Escriu el teu user@gmail.com" size="30"><br>
+            <label for="DataNaixement">Data de naixement</label><br>
+            <input type="date" name="Data" id="DataNaixement"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend><h2><u>Nacionalitat</u></h2></legend>
+            <input type="radio" name="Nacionalitat">Espanyola
+            <input type="radio" name="Nacionalitat">Comunitari(UE)
+            <input type="radio" name="Nacionalitat">No comunitari
+        </fieldset>
+
+        <fieldset>
+            <legend><h2><u>Estudis</u></h2></legend>
+            <select name="estudis" id="estudis">
+                <option value="">Educació Secundaria Obligatoria</option>
+                <option value="">Formació Profesional</option>
+                <option value="">Bachillerat</option>
+                <option value="">Carrera universitària</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend><h2><u>Idiomes</u></h2></legend>
+            <input type="checkbox">Català
+            <input type="checkbox">Castellà
+            <input type="checkbox">Anglès
+            <input type="checkbox">Xinès<br>
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">Enviar</button>
+            <button type="reset">Cancelar</button>
+        </fieldset>
+    </form>
+    <p><a href="../Index/index.html">Tornar a pàgina principal</a></p>
+    <img src="../imagenes/exerciciformulari.jpg" alt="" style="display: block; margin: auto;">
+</body>
+
+</html>
